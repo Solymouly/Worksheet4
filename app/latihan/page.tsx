@@ -12,8 +12,7 @@ export default async function LatihanPage() {
 
   return (
     <div style={{ padding: "20px", fontFamily: "sans-serif" }}>
-      <h1>Daftar Catatan (Latihan Database)</h1>
-      <p>Data ini diambil dari SQLite lokal yang di-deploy ke Vercel.</p>
+      <h1>Daftar Catatan Makanan</h1>
       
       <div style={{ display: "grid", gap: "10px", marginTop: "20px" }}>
         {notes.map((note) => (
